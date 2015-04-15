@@ -14,4 +14,6 @@ angular.module('angularTrainingApp')
       'AngularJS',
       'Karma'
     ];
+    $scope.repeatData = [1,2,1];
+    $scope.statusList = ["inprogress", "Approved", "Pending"];
   });
